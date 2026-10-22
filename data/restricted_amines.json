@@ -1,0 +1,113 @@
+{ "amines": [
+  {
+   "name": "4-Aminobiphenyl",
+   "cas": "92-67-1",
+   "smiles": "Nc1ccc(cc1)-c1ccccc1"
+  },
+  {
+   "name": "Benzidine",
+   "cas": "92-87-5",
+   "smiles": "Nc1ccc(cc1)-c1ccc(N)cc1"
+  },
+  {
+   "name": "4-Chloro-o-toluidine",
+   "cas": "95-69-2",
+   "smiles": "Cc1cc(Cl)ccc1N"
+  },
+  {
+   "name": "2-Naphthylamine",
+   "cas": "91-59-8",
+   "smiles": "Nc1ccc2ccccc2c1"
+  },
+  {
+   "name": "o-Aminoazotoluene",
+   "cas": "97-56-3",
+   "smiles": "Cc1ccccc1N=Nc1ccc(N)c(C)c1"
+  },
+  {
+   "name": "5-Nitro-o-toluidine",
+   "cas": "99-55-8",
+   "smiles": "Cc1ccc([N+](=O)[O-])cc1N"
+  },
+  {
+   "name": "4-Chloroaniline",
+   "cas": "106-47-8",
+   "smiles": "Nc1ccc(Cl)cc1"
+  },
+  {
+   "name": "4-Methoxy-m-phenylenediamine",
+   "cas": "615-05-4",
+   "smiles": "COc1ccc(N)cc1N"
+  },
+  {
+   "name": "4,4'-Methylenedianiline",
+   "cas": "101-77-9",
+   "smiles": "Nc1ccc(Cc2ccc(N)cc2)cc1"
+  },
+  {
+   "name": "3,3'-Dichlorobenzidine",
+   "cas": "91-94-1",
+   "smiles": "Nc1ccc(cc1Cl)-c1ccc(N)c(Cl)c1"
+  },
+  {
+   "name": "3,3'-Dimethoxybenzidine",
+   "cas": "119-90-4",
+   "smiles": "COc1cc(ccc1N)-c1ccc(N)c(OC)c1"
+  },
+  {
+   "name": "3,3'-Dimethylbenzidine",
+   "cas": "119-93-7",
+   "smiles": "Cc1cc(ccc1N)-c1ccc(N)c(C)c1"
+  },
+  {
+   "name": "4,4'-Methylenedi-o-toluidine",
+   "cas": "838-88-0",
+   "smiles": "Cc1cc(Cc2ccc(N)c(C)c2)ccc1N"
+  },
+  {
+   "name": "6-Methoxy-m-toluidine (p-cresidine)",
+   "cas": "120-71-8",
+   "smiles": "COc1ccc(C)cc1N"
+  },
+  {
+   "name": "4,4'-Methylene-bis(2-chloroaniline)",
+   "cas": "101-14-4",
+   "smiles": "Nc1ccc(Cc2ccc(N)c(Cl)c2)cc1Cl"
+  },
+  {
+   "name": "4,4'-Oxydianiline",
+   "cas": "101-80-4",
+   "smiles": "Nc1ccc(Oc2ccc(N)cc2)cc1"
+  },
+  {
+   "name": "4,4'-Thiodianiline",
+   "cas": "139-65-1",
+   "smiles": "Nc1ccc(Sc2ccc(N)cc2)cc1"
+  },
+  {
+   "name": "o-Toluidine",
+   "cas": "95-53-4",
+   "smiles": "Cc1ccccc1N"
+  },
+  {
+   "name": "4-Methyl-m-phenylenediamine",
+   "cas": "95-80-7",
+   "smiles": "Cc1ccc(N)cc1N"
+  },
+  {
+   "name": "2,4,5-Trimethylaniline",
+   "cas": "137-17-7",
+   "smiles": "Nc1c(C)cc(C)c(C)c1"
+  },
+  {
+   "name": "o-Anisidine",
+   "cas": "90-04-0",
+   "smiles": "COc1ccccc1N"
+  },
+  {
+   "name": "4-Aminoazobenzene",
+   "cas": "60-09-3",
+   "smiles": "Nc1ccc(cc1)N=Nc1ccccc1"
+  }
+ ]
+}

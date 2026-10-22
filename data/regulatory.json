@@ -1,0 +1,149 @@
+{
+ "_instructions": "For each dye and use, set status to one of: approved, restricted, banned, not_approved, not_listed. Fill 'source' with the exact regulation or list and its date. Leave 'TODO' if unverified (the app treats TODO as no data). Sources: ECHA (REACH Annex XVII) for textiles; EU food additives register / FDA colour additive lists for food; EU Cosmetics Regulation colourant annexes for cosmetics. CAS numbers below are from memory: verify. The smiles must match the structure used in the app.",
+ "dyes": [
+  {
+   "name": "Methylene blue",
+   "cas": "61-73-4",
+   "ci_name": "CI 52015",
+   "smiles": "CN(C)C1=CC2=C(C=C1)N=C3C=CC(=[N+](C)C)C=C3S2",
+   "uses": {
+    "textile": {
+     "status": "not_listed",
+     "source": "Regulation (EC) No 1907/2006, Annex XVII entry 43 and Appendix 8 (22 amines), consolidated version of 22 June 2026 (CELEX 02006R1907); no azo group (thiazine dye), so no amine release"
+    },
+    "food": {
+     "status": "not_approved",
+     "source": "EU: CI 52015 is not among the food colours (E 100-E 199) in the Union list, Annex II to Regulation (EC) No 1333/2008 (as established by Regulation (EU) No 1129/2011); only listed additives may be used in food. US: not among the colour additives listed for food in 21 CFR Part 74 Subpart A (FD&C Blue No. 1, Blue No. 2, etc.). Absence inferred from the E-number colour lists and Part 74 index retrieved; the full Annex II tables and 21 CFR Part 73 were not read line by line"
+    },
+    "cosmetic": {
+     "status": "banned",
+     "source": "Regulation (EC) 1223/2009, Annex II (prohibited substances), as amended by Corrigendum to Regulation (EU) 2026/909, OJ L 8 May 2026; per ECHA substance infocard for 61-73-4"
+    },
+    "stain": {
+     "status": "TODO",
+     "source": ""
+    }
+   }
+  },
+  {
+   "name": "Rhodamine B",
+   "cas": "81-88-9",
+   "ci_name": "CI 45170 (Basic Violet 10)",
+   "smiles": "CCN(CC)C1=CC2=C(C=C1)C(=C3C=CC(=[N+](CC)CC)C=C3O2)C4=CC=CC=C4C(=O)O",
+   "uses": {
+    "textile": {
+     "status": "not_listed",
+     "source": "Regulation (EC) No 1907/2006, Annex XVII entry 43 and Appendix 8 (22 amines), consolidated version of 22 June 2026 (CELEX 02006R1907); no azo group (xanthene dye), so no amine release"
+    },
+    "food": {
+     "status": "not_approved",
+     "source": "EU: not in the Union list of food additives (Annex II to Regulation (EC) No 1333/2008, established by Commission Regulation (EU) No 1129/2011), so it may not be used in food; RASFF notifications treat it as an 'unauthorised colour' (e.g. pickled turnips from Lebanon, cited by yumda.com 2017). Absence from the list taken from a secondary summary (greyb.com), not checked line by line against the current consolidated Annex II. US FDA colour additive lists not checked"
+    },
+    "cosmetic": {
+     "status": "banned",
+     "source": "Regulation (EC) No 1223/2009, Annex II (prohibited substances), entry 398: colouring agent CI 45170 and CI 45170:1 (Basic Violet 10), CAS 81-88-9; entry number per the original regulation text and the CosIng Checker Annex II record. Not re-checked against the current consolidated Annex II"
+    },
+    "stain": {
+     "status": "TODO",
+     "source": ""
+    }
+   }
+  },
+  {
+   "name": "Crystal violet",
+   "cas": "548-62-9",
+   "ci_name": "CI 42555 (Basic Violet 3; gentian violet)",
+   "smiles": "CN(C)c1ccc(cc1)C(=C1C=CC(C=C1)=[N+](C)C)c1ccc(cc1)N(C)C",
+   "uses": {
+    "textile": {
+     "status": "not_listed",
+     "source": "Regulation (EC) No 1907/2006, Annex XVII entry 43 and Appendix 8 (22 amines), consolidated version of 22 June 2026 (CELEX 02006R1907); no azo group (triarylmethane dye), so no amine release"
+    },
+    "food": {
+     "status": "not_approved",
+     "source": "EU: CI 42555 (Basic Violet 3) is not among the food colours (E 100-E 199) in the Union list, Annex II to Regulation (EC) No 1333/2008 (as established by Regulation (EU) No 1129/2011). US: not among the colour additives listed for food in 21 CFR Part 74 Subpart A. Absence inferred from the E-number colour lists and Part 74 index retrieved; the full Annex II tables and 21 CFR Part 73 were not read line by line"
+    },
+    "cosmetic": {
+     "status": "banned",
+     "source": "Regulation (EC) No 1223/2009, Annex II (prohibited substances), CAS 548-62-9; per AICIS (Australia) Tier II human health assessment of crystal violet and related dyes citing EU Annex II, and supplier SDS listing 'EU Cosmetics Annex II - Prohibited'. Entry number and current consolidated text not checked"
+    },
+    "stain": {
+     "status": "TODO",
+     "source": ""
+    }
+   }
+  },
+  {
+   "name": "Tartrazine",
+   "cas": "1934-21-0",
+   "ci_name": "CI 19140 (Acid Yellow 23; FD&C Yellow 5; E 102)",
+   "smiles": "C1=CC(=CC=C1N=NC2C(=NN(C2=O)C3=CC=C(C=C3)S(=O)(=O)O)C(=O)O)S(=O)(=O)O",
+   "uses": {
+    "textile": {
+     "status": "not_listed",
+     "source": "Regulation (EC) No 1907/2006, Annex XVII entry 43 and Appendix 8 (22 amines), consolidated version of 22 June 2026 (CELEX 02006R1907); azo dye; cleavage products (sulfanilic acid and an aminopyrazolone carboxylic acid) are not among the 22 listed amines"
+    },
+    "food": {
+     "status": "approved",
+     "source": "US: 21 CFR 74.705 (FD&C Yellow No. 5 listed for food; FDA has announced a voluntary phase-out by end of 2026, listing still in force). EU: E 102 is an authorised food colour (Regulation (EU) No 1129/2011); EU listing not re-checked against the regulation text"
+    },
+    "cosmetic": {
+     "status": "approved",
+     "source": "Regulation (EC) No 1223/2009, Annex IV (positive list of colourants), CI 19140, entry 44 per CosIng-derived secondary data (incidecoder.com 'IV/44'; Cosmile Europe confirms Annex IV listing). Use is subject to Annex IV conditions and purity criteria. Not checked against the current consolidated EU Annex IV. US: FD&C Yellow No. 5 certifiable for cosmetics (21 CFR 74.1705), not re-checked"
+    },
+    "stain": {
+     "status": "TODO",
+     "source": ""
+    }
+   }
+  },
+  {
+   "name": "Sudan I",
+   "cas": "842-07-9",
+   "ci_name": "CI 12055 (Solvent Yellow 14)",
+   "smiles": "C1=CC=C(C=C1)N=NC2=C(C=CC3=CC=CC=C32)O",
+   "uses": {
+    "textile": {
+     "status": "not_listed",
+     "source": "Regulation (EC) No 1907/2006, Annex XVII entry 43 and Appendix 8 (22 amines), consolidated version of 22 June 2026 (CELEX 02006R1907); azo dye; cleavage products (aniline and 1-amino-2-naphthol) are not among the 22 listed amines"
+    },
+    "food": {
+     "status": "not_approved",
+     "source": "EU: not authorised as a food additive (BfR statement 'Dyes Sudan I to IV in food'; emergency testing under Commission Decision 2005/402/EC, later repealed). US: reported as banned for food colour use (Method development and survey of Sudan I-IV, PMC4888373). FDA colour additive lists not checked directly"
+    },
+    "cosmetic": {
+     "status": "banned",
+     "source": "Regulation (EC) No 1223/2009, Annex II (prohibited substances): CI Solvent Yellow 14 (CI 12055, CAS 842-07-9) listed as entry 1107 in the GB retained Annex II (source version 15 Aug 2026) and ASEAN Annex II (2026-1, 22 June 2026), per cosingchecker.com; it is also absent from the Annex IV positive list of colourants. EU consolidated Annex II entry number not directly checked"
+    },
+    "stain": {
+     "status": "TODO",
+     "source": ""
+    }
+   }
+  },
+  {
+   "name": "Indigo",
+   "cas": "482-89-3",
+   "ci_name": "CI 73000 (Vat Blue 1; Pigment Blue 66)",
+   "smiles": "O=C1c2ccccc2NC1=C1Nc2ccccc2C1=O",
+   "uses": {
+    "textile": {
+     "status": "not_listed",
+     "source": "Regulation (EC) No 1907/2006, Annex XVII entry 43 and Appendix 8 (22 amines), consolidated version of 22 June 2026 (CELEX 02006R1907); no azo group (indigoid dye), so no amine release"
+    },
+    "food": {
+     "status": "not_approved",
+     "source": "EU: indigo (CI 73000, CAS 482-89-3) is not in the Union list; only its sulfonated derivative indigotine/indigo carmine (E 132, CI 73015) is authorised (Annex II to Regulation (EC) No 1333/2008). US: 21 CFR 74.102 lists FD&C Blue No. 2 (sulfonated indigo) for food, not indigo itself; indigo (D&C Blue No. 6) is listed only for surgical sutures, 21 CFR 74.3106. Absence of CI 73000 inferred from the lists retrieved, not read line by line"
+    },
+    "cosmetic": {
+     "status": "approved",
+     "source": "Regulation (EC) No 1223/2009, Annex IV (list of colorants allowed in cosmetic products), entry 98, CI 73000, per the legislation.gov.uk copy of Annex IV (as amended); check current EU consolidated Annex IV. US: D&C Blue No. 6 is listed in 21 CFR 74.3106 only under medical devices (surgical sutures)"
+    },
+    "stain": {
+     "status": "TODO",
+     "source": ""
+    }
+   }
+  }
+ ]
+}

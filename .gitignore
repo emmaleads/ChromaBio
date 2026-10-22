@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+model_out/
+model_full/
+*.ckpt
+.DS_Store

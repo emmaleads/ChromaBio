@@ -1,0 +1,10 @@
+# Replace with the exact versions from Colab:  !pip freeze | grep -i -E "chemprop|rdkit|torch|lightning"
+chemprop>=2.0
+rdkit
+streamlit
+matplotlib
+numpy
+pandas
+scikit-learn
+# optional, for toxicity predictions (install and test separately):
+admet-ai
