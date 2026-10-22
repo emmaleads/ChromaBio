@@ -1,4 +1,4 @@
-# Dye λmax & Colour Predictor
+# ChromaBio
 
 Enter a dye (SMILES or name) and get its **predicted absorption maximum (λmax)**, the **colour you would see**, its **structure**, and **key properties**. A safety and use-case suitability module (structural alerts, regulatory flags, toxicity predictions) is planned as the next layer.
 
