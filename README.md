@@ -4,7 +4,17 @@ Enter a dye (SMILES or name) and get its **predicted absorption maximum (λmax)*
 
 > Pitch: *Is this dye the right colour, and is it safe for my purpose?*
 
-![screenshot](docs/screenshot.png)  <!-- add a screenshot of the app -->
+### Screenshots
+### Prediction and colour
+![Prediction and colour](docs/main_view.PNG)
+
+### Absorption band and properties
+![Absorption band](docs/absorption_band.PNG)
+![Key properties](docs/key_properties.PNG)
+
+### Safety and use-case screening
+![Safety table](docs/safety_table.PNG)
+![Evidence behind the verdicts](docs/safety_evidence.PNG)
 
 ## How it works
 1. **Model**: a Chemprop graph neural network takes the dye and solvent as two molecular inputs and predicts λmax, absorption band width (FWHM) and intensity (log ε).
